@@ -41,3 +41,6 @@ with webdriver.Firefox(service=service) as driver:
     )
     # Print the cell value
     print("Cell value at second row and second column: ", second_row_second_cell.text)
+
+    # Close the browser
+    driver.quit()

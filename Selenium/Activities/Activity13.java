@@ -36,7 +36,8 @@ public class Activity13 {
         WebElement cellValue = driver.findElement(By.xpath("//table[contains(@class, 'striped')]/tbody/tr[2]/td[2]"));
         System.out.println("Second row, second cell value: " + cellValue.getText());
 
-
+        // Close the browser
+        driver.close();
 
     }
 }
